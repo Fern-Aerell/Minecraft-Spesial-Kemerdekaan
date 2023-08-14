@@ -1,0 +1,45 @@
+# addon
+addon/addon-minecraft-1.20.12.1/.env
+addon/addon-minecraft-1.20.12.1/node_modules
+addon/addon-minecraft-1.20.12.1/yarn.lock
+addon/addon-minecraft-old-version
+
+# mod - forge
+mod/forge/forge-minecraft-1.20.1/bin
+mod/forge/forge-minecraft-1.20.1/*.launch
+mod/forge/forge-minecraft-1.20.1/.settings
+mod/forge/forge-minecraft-1.20.1/.metadata
+mod/forge/forge-minecraft-1.20.1/.classpath
+mod/forge/forge-minecraft-1.20.1/.project
+mod/forge/forge-minecraft-1.20.1/out
+mod/forge/forge-minecraft-1.20.1/*.ipr
+mod/forge/forge-minecraft-1.20.1/*.iws
+mod/forge/forge-minecraft-1.20.1/*.iml
+mod/forge/forge-minecraft-1.20.1/.idea
+mod/forge/forge-minecraft-1.20.1/build
+mod/forge/forge-minecraft-1.20.1/.gradle
+mod/forge/forge-minecraft-1.20.1/eclipse
+mod/forge/forge-minecraft-1.20.1/run
+mod/forge/forge-minecraft-1.20.1/forge*changelog.txt
+
+# mod - fabric
+mod/fabric/fabric-minecraft-1.20.1/.gradle/
+mod/fabric/fabric-minecraft-1.20.1/build/
+mod/fabric/fabric-minecraft-1.20.1/out/
+mod/fabric/fabric-minecraft-1.20.1/classes/
+mod/fabric/fabric-minecraft-1.20.1/*.launch
+mod/fabric/fabric-minecraft-1.20.1/.idea/
+mod/fabric/fabric-minecraft-1.20.1/*.iml
+mod/fabric/fabric-minecraft-1.20.1/*.ipr
+mod/fabric/fabric-minecraft-1.20.1/*.iws
+mod/fabric/fabric-minecraft-1.20.1/.settings/
+mod/fabric/fabric-minecraft-1.20.1/.vscode/
+mod/fabric/fabric-minecraft-1.20.1/bin/
+mod/fabric/fabric-minecraft-1.20.1/.classpath
+mod/fabric/fabric-minecraft-1.20.1/.project
+mod/fabric/fabric-minecraft-1.20.1/*.DS_Store
+mod/fabric/fabric-minecraft-1.20.1/run/
+mod/fabric/fabric-minecraft-1.20.1/hs_err_*.log
+mod/fabric/fabric-minecraft-1.20.1/replay_*.log
+mod/fabric/fabric-minecraft-1.20.1/*.hprof
+mod/fabric/fabric-minecraft-1.20.1/*.jfr

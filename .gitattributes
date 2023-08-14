@@ -1,0 +1,5 @@
+# mod - forge
+mod/forge/forge-minecraft-1.20.1/src/generated/**/.cache/cache text eol=lf
+mod/forge/forge-minecraft-1.20.1/src/generated/**/*.json text eol=lf
+
+# mod - fabric

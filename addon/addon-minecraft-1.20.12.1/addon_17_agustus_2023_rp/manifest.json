@@ -1,0 +1,30 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§c- Created by AerellGamers -\n§fSelamat Hari Kemerdekaan Indonesia Yang Ke-78",
+        "name": "§lADD-ON 17 AGUSTUS 2023",
+        "uuid": "e83a6144-752e-43a3-94b4-6a929bf3c593",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "§c- Created by AerellGamers -\n§fSelamat Hari Kemerdekaan Indonesia Yang Ke-78",
+            "type": "resources",
+            "uuid": "c97c6c0d-22bd-4fa7-aaaa-42dfff722055",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

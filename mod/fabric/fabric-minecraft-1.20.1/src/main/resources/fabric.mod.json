@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mcku",
+	"version": "${version}",
+	"name": "Minecraft Kemerdekaan Update",
+	"description": "Selamat Hari Kemerdekaan Indonesia Yang Ke-78.",
+	"authors": [
+		"AerellDev"
+	],
+	"contact": {
+		"youtube": "https://www.youtube.com/@AerellDev"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mcku/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aerelldev.mcku.Mcku"
+		],
+		"client": [
+			"com.aerelldev.mcku.MckuClient"
+		]
+	},
+	"mixins": [
+		"mcku.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
