@@ -1,0 +1,11 @@
+{
+    "item_name": "Red leather",
+    "item_identifer_lang": "item.mcku:red_leather.name",
+    "rarity": "common",
+    "stackable": 64,
+    "crafting": {
+        "key": ["AB"],
+        "A": "leather",
+        "B": "red dye"
+    }
+}

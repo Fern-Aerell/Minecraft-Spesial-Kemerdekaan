@@ -1,0 +1,11 @@
+{
+    "item_name": "White leather",
+    "item_identifer_lang": "item.mcku:white_leather.name",
+    "rarity": "common",
+    "stackable": 64,
+    "crafting": {
+        "key": ["AB"],
+        "A": "leather",
+        "B": "white dye"
+    }
+}
