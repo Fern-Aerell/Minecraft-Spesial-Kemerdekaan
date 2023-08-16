@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "BBB",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "item": "mcku:red_leather"
+        },
+        "B": {
+            "item": "mcku:white_leather"
+        },
+        "C": {
+            "item": "minecraft:leather_helmet"
+        }
+    },
+    "result": {
+        "item": "mcku:bandana_indonesia",
+        "count": 1
+    }
+}

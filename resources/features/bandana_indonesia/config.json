@@ -1,0 +1,21 @@
+{
+    "item_name": "Bandana indonesia",
+    "item_identifer_lang": "item.mcku:bandana_indonesia.name",
+    "rarity": "Uncommon",
+    "stackable": 1,
+    "durability": 78,
+    "repair": [
+        "red_leather",
+        "white_leather"
+    ],
+    "crafting": {
+        "key": [
+            "AAA",
+            "BBB",
+            " C "
+        ],
+        "A": "red_leather",
+        "B": "white_leather",
+        "C": "leather_helmet"
+    }
+}

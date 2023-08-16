@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "crafting:red_leather"
+            "identifier": "mcku:red_leather"
         },
         "tags": [
             "crafting_table"
