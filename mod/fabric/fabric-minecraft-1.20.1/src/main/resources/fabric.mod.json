@@ -11,7 +11,7 @@
 		"youtube": "https://www.youtube.com/@AerellDev"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mcku/icon.png",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -24,7 +24,7 @@
 	"mixins": [
 		"mcku.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "mcku.client.mixins.json",
 			"environment": "client"
 		}
 	],

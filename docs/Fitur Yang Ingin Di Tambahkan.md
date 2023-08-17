@@ -1,16 +1,24 @@
 # Fitur Yang Ingin Di Tambahkan
 
-## Fitur Opsional
-1. Music Disc Baru
-    - Lagu 17 Agustus 1945
-    - Lagu Indonesia Raya
-    - Lagu Maju Tak Gentar
+## Fitur Opsional V1.3.0-Indev
+1. New Music Disc
+    - Mengganti 3 Music Disc (Resources) (Addon)
+        - Texture Disc Nya Berubah.
+        - Lagu 17 Agustus 1945 replace record 13
+        - Lagu Indonesia Raya replace record cat
+        - Lagu Maju Tak Gentar replace record block
+    - Music 3 Disc Baru (Resources) (Forge/Fabric)
+        - Menambah disc baru.
+        - Texture disc nya sama semua.
+        - Lagu 17 Agustus 1945
+        - Lagu Indonesia Raya
+        - Lagu Maju Tak Gentar
 
-## Fitur Yang Udah Pasti Ada
-1. New Minecraft Title (Addon/Forge/Fabric)
+## Fitur Yang Udah Pasti Ada V1.11.0-Indev
+1. New Minecraft Title (Resources) (Addon/Forge/Fabric)
     - Minecraft Kemerdekaan
 
-2. Red Leather
+2. Red Leather (Resources) (bedrock/Forge/Fabric)
     - Menambahkan leather baru "Red leather"
     - Rarity : common
     - Stackable : 64
@@ -19,7 +27,7 @@
         - A = leather
         - B = red dye
 
-3. White Leather
+3. White Leather (Resources) (bedrock/Forge/Fabric)
     - Menambahkan leather baru "White leather"
     - Rarity : common
     - Stackable : 64
@@ -28,7 +36,7 @@
         - A = leather
         - B = white dye
 
-4. Bandana Indonesia
+4. Bandana Indonesia (Resources) (Bedrock/Forge/Fabric)
     - Menambahkan armor helmet baru "Bandana Indonesia"
     - Rarity : Uncommon
     - Durability : 78
@@ -42,7 +50,7 @@
         - B = white leather
         - C = leather helmet
 
-5. Item Bendera Indonesia
+5. Item Bendera Indonesia (Resources) (Bedrock/Forge/Fabric)
     - Menambahkan item baru "Bendera Indonesia"
     - Digunakan untuk di taruh di tiang bendera.
     - Rarity : Uncommon
@@ -54,13 +62,31 @@
         - A = red leather
         - B = white leather
 
-6. Blok Tiang Bendera
+6. Emote Hormat (Resources) (Bedrock/Forge/Fabric)
+    - Menambahkan emote baru "Hormat"
+    - Command '#hormat' untuk bedrock
+    - Command '/stop' untuk java
+
+7. Emote Stop (Resources) (Bedrock/Forge/Fabric)
+    - Menambahkan emote baru "Stop"
+    - Untuk stop hormat
+    - Command '#stop' untuk bedrock
+    - Command '/stop' untuk java
+
+## Khusus JAVA V1.12.0-Indev
+
+1. Menambahkan CreativeModeTab baru (forge/fabric)
+    - Kemerdekaan Tab
+
+
+<!-- ## Fitur Yang Udah Pasti Ada V1.15.0-Indev
+1. Blok Tiang Bendera (Resources)
     - Menambahkan block baru "Blok Tiang Bendera"
     - Digunakan untuk tempat menaruh Item bendera.
     - Pada saat pertama kali di taruh ada animasi naik nya.
     - Bendera yang sudah naik bisa di turunkan, dan ada animasi turunnya.
     - Rarity : Uncommon
-    - Stackable : False
+    - Stackable : True
     - Crafting
         - [CAC]
         - [CAC]
@@ -69,7 +95,19 @@
         - B = Iron block
         - C = lead
 
-7. Item Bendera Indonesia (Cuma untuk pajangan di tangan)
+2. Blok Tiang Panjat Pinang
+    - Menambahkan block baru "Tiang Panjat Pinang"
+    - Rarity : Uncommon
+    - Stackable : False
+    - Crafting
+        - [BAB]
+        - [CAC]
+        - [ A ]
+        - A = Planks (Semua jenis plank)
+        - B = plank fence
+        - C = Chest
+
+3. Item Bendera Indonesia (Cuma untuk pajangan di tangan)
     - Menambahkan item baru "Bendera Indonesia"
     - Cuma buat pajangan di tangan.
     - Ada animasi idle nya
@@ -84,7 +122,7 @@
         - B = white leather
         - A = stik
 
-8. Bambu Runcing
+4. Bambu Runcing
     - Menambahkan item baru "Bambu runcing"
     - Bisa di lempar seperti trident
     - Ada animasi saat di lempar.
@@ -98,30 +136,9 @@
         - [A  ]
         - A = Bambu runcing
 
-9. Emote Hormat
-    - Menambahkan emote baru "Hormat"
-    - Command '//hormat'
-
-9. Emote Stop
-    - Menambahkan emote baru "Stop"
-    - Untuk stop hormat
-    - Command '//stop'
-
-10. Blok Tiang Panjat Pinang
-    - Menambahkan block baru "Tiang Panjat Pinang"
-    - Rarity : Uncommon
-    - Stackable : False
-    - Crafting
-        - [BAB]
-        - [CAC]
-        - [ A ]
-        - A = Planks (Semua jenis plank)
-        - B = plank fence
-        - C = Chest
-
-11. Bisa Nunggangin Player
+5. Bisa Nunggangin Player
     - Digunakan untuk panjat pinang
 
 ## Fitur Lanjutan ( Jika Masih Ada Waktu )
 1. Gapura
-2. Dekorasi 17an
+2. Dekorasi 17an -->

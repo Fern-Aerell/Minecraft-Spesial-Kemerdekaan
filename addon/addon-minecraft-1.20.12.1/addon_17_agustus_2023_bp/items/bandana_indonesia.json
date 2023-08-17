@@ -1,0 +1,46 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mcku:bandana_indonesia",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft:icon": {
+                "texture": "bandana_indonesia"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_head"
+			},
+            "minecraft:armor": {
+				"protection": 3,
+                "texture_type": "leather"
+			},
+            "minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["mcku:red_leather", "mcku:white_leather"],
+						"repair_amount": "(1.0)"
+					}
+				]
+			},
+			"minecraft:wearable": {
+				"dispensable": true,
+				"slot": "slot.armor.head"
+			},
+			"minecraft:durability": {
+                "damage_chance": {
+                    "max": 5,
+                    "min": 2
+                },
+				"max_durability": 78
+			}
+        },
+        "events": {}
+    }
+}

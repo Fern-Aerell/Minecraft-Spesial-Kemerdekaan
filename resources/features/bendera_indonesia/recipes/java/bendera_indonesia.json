@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "key": [
+        {
+            "item": "mcku:red_leather"
+        },
+        {
+            "item": "mcku:red_leather"
+        },
+        {
+            "item": "mcku:red_leather"
+        },
+        {
+            "item": "mcku:white_leather"
+        },
+        {
+            "item": "mcku:white_leather"
+        },
+        {
+            "item": "mcku:white_leather"
+        }
+    ],
+    "result": {
+        "item": "mcku:bandana_indonesia",
+        "count": 1
+    }
+}

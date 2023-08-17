@@ -6,12 +6,13 @@ import path from "path";
 config();
 
 const addon_path = process.env.ADDON_PATH;
-const addon_rp_name = process.env.ADDON_RP_PATH;
-const addon_bp_name = process.env.ADDON_BP_PATH;
+const addon_rp_name = process.env.ADDON_RP_NAME;
+const addon_bp_name = process.env.ADDON_BP_NAME;
 
 const minecraft_path = process.env.MINECRAFT_APP_PATH;
 const minecraft_rp_dev_path = process.env.MINECRAFT_RP_DEVELOPMENT_PATH;
 const minecraft_bp_dev_path = process.env.MINECRAFT_BP_DEVELOPMENT_PATH;
+
 
 async function moveRpAndBpToDevFolderPath() {
     try {

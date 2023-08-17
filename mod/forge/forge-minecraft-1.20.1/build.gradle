@@ -79,16 +79,25 @@ minecraft {
                     source sourceSets.main
                 }
             }
+
         }
 
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+
+            // Player Animator Lib
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
+
+            // Player Animator Lib
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -120,6 +129,12 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+    // Player Animator Lib
+    maven {
+        name "KosmX's maven"
+        url 'https://maven.kosmx.dev/'
+    }
 }
 
 dependencies {
@@ -144,6 +159,9 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+    // Player Animator Lib
+    implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${project.player_animator_lib_version}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

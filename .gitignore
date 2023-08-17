@@ -43,3 +43,6 @@ mod/fabric/fabric-minecraft-1.20.1/hs_err_*.log
 mod/fabric/fabric-minecraft-1.20.1/replay_*.log
 mod/fabric/fabric-minecraft-1.20.1/*.hprof
 mod/fabric/fabric-minecraft-1.20.1/*.jfr
+
+# root
+resources/bedrock-samples

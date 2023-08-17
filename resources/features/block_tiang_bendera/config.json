@@ -1,0 +1,16 @@
+{
+    "block_name": "Block tiang bendera",
+    "block_identifer_lang": "tile.mcku:block_tiang_bendera.name",
+    "rarity": "Uncommon",
+    "stackable": 64,
+    "crafting": {
+        "key": [
+            "CAC",
+            "CAC",
+            " B "
+        ],
+        "A": "iron_ingot",
+        "B": "iron_block",
+        "C": "lead"
+    }
+}

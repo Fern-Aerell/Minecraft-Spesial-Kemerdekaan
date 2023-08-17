@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mcku:bendera_indonesia",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "bendera_indonesia"
+            }
+        },
+        "events": {}
+    }
+}
