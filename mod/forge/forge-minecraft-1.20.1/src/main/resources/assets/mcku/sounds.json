@@ -1,0 +1,35 @@
+{
+  "lagu_17_agustus": {
+    "category": "record",
+    "max_distance": 16,
+    "max_distance": 32,
+    "sounds": [
+      {
+        "name": "mcku:lagu_17_agustus",
+        "stream": true
+      }
+    ]
+  },
+  "lagu_indonesia_raya": {
+    "category": "record",
+    "max_distance": 16,
+    "max_distance": 32,
+    "sounds": [
+      {
+        "name": "mcku:lagu_indonesia_raya",
+        "stream": true
+      }
+    ]
+  },
+  "lagu_maju_tak_gentar": {
+    "category": "record",
+    "max_distance": 16,
+    "max_distance": 32,
+    "sounds": [
+      {
+        "name": "mcku:lagu_maju_tak_gentar",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "resource_pack_name": "mcku",
+    "texture_data": {
+        "record_13": {
+            "textures": "textures/items/kemerdekaan_disc"
+        },
+        "record_cat": {
+            "textures": "textures/items/kemerdekaan_disc"
+        },
+        "record_blocks": {
+            "textures": "textures/items/kemerdekaan_disc"
+        },
+        "red_leather": {
+            "textures": "textures/items/red_leather"
+        },
+        "white_leather": {
+            "textures": "textures/items/white_leather"
+        },
+        "bandana_indonesia": {
+            "textures": "textures/items/bandana_indonesia"
+        },
+        "bendera_indonesia": {
+            "textures": "textures/items/bendera_indonesia"
+        }
+    }
+}

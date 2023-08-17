@@ -16,6 +16,12 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+
+	// Player Animation Lib
+	maven {
+		name "KosmX's maven"
+		url 'https://maven.kosmx.dev/'
+	}
 }
 
 loom {
@@ -43,6 +49,9 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+
+	// Player Animation Lib
+	include modImplementation("dev.kosmx.player-anim:player-animation-lib-fabric:${project.player_animation_lib_version}")
 }
 
 processResources {

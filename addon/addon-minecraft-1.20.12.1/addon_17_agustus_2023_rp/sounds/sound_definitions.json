@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.10",
+    "sound_definitions": {
+        "record.13": {
+            "__use_legacy_max_distance": true,
+            "category": "record",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/records/lagu_17_agustus",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        },
+        "record.cat": {
+            "__use_legacy_max_distance": true,
+            "category": "record",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/records/lagu_indonesia_raya",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        },
+        "record.blocks": {
+            "__use_legacy_max_distance": true,
+            "category": "record",
+            "max_distance": 64.0,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/records/lagu_maju_tak_gentar",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        }
+    }
+}

@@ -3,7 +3,8 @@
 	"package": "com.aerelldev.mcku.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"MckuMixin"
+		"MckuMixin",
+		"client.ClientPlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
